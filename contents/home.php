@@ -1,5 +1,5 @@
-<h2>Hello, Welcome to Cyle McNulty's WEB250 page!</h2>
-<h2>Table of Contents</h2>
+<h2>Home</h2>
+<h2>Site Table of Contents</h2>
 <ul>
     <li><a href ="staticarchive/index.html" >Archived Static Pages<a></li>
     <li><a href ="multipage_sites/superduper_static">Static Multipage Site<a></li>
