@@ -1,5 +1,5 @@
 <h2>Home</h2>
-<h2>Site Table of Contents</h2>
+<h3>Site Table of Contents</h3>
 <ul>
     <li><a href ="staticarchive/index.html" >Archived Static Pages<a></li>
     <li><a href ="multipage_sites/superduper_static">Static Multipage Site<a></li>
