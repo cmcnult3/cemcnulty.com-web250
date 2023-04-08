@@ -1,0 +1,70 @@
+body{
+	font-family: Helvetica;
+	color: #fefce8;
+	background-color: rgb(72,104,96);
+	font-size: 100%;
+}
+header{
+	color: #1e293b;
+	margin: 0px;
+    opacity: 0.5;
+    background-color: #fef9c3;
+	text-align: center;
+    border: 3px solid;
+	border-radius: 5px;
+}
+a{
+	color: #fde047;
+	font-size: 18px;
+}
+
+a:hover{
+	color: #fb923c; 
+	font-size: 110%;
+}
+
+
+header nav{
+	word-spacing: 20px;
+	font-family: Trebuchet MS;
+}
+
+header a{
+    color: #1e293b;
+	font-weight: Bold;
+	font-size: 24px;
+	text-decoration: none;
+}
+
+header a:hover{
+    font-size: 26px;
+    color:#fb923c;
+}
+
+footer{
+	text-align: center;
+}
+main{
+	margin-top: 25px;
+	margin-bottom: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
+	line-height: 1.5;
+}
+main h1{
+    text-align: center;
+}
+
+main strong{
+	color: #1e293b;
+	font-size: 110%;
+}
+
+main em{
+	color: #fde047;
+}
+
+
+/* Colors : #1e293b dark gray, #fef9c3 light yellow */ 
+
+

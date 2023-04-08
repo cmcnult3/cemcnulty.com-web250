@@ -1,0 +1,82 @@
+body{
+    background-color: #e2e8f0; /* Slate */
+    color: #004953; /* Eagles Midnight Green */
+    font-family:'Space Mono', monospace;
+}
+h1{
+    color: #FF4000; /* Wix Orange */
+}
+h2{
+    text-align: center;
+}
+header{
+    background-color:#4FD28A; /*Wix Green*/
+    color: #004953;
+    padding: 20px 10px 5px;
+}
+header h1{
+    display: inline-block;
+    box-sizing: border-box;
+    padding-right: 100px;
+}
+header nav{
+    font-size: x-large;
+    display: inline-block;
+    box-sizing: border-box;   
+ }
+
+header ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+}
+header li{
+    display: inline;
+    padding: 8px;
+}
+
+figure{
+    text-align: center;
+}
+.brand{
+    object-fit: contain;
+}
+
+main div{
+    background-color: #4FD28A;
+    text-align: center;
+}
+main{
+    margin: 25px 100px;
+}
+main li{
+    margin: 10px;
+}
+figure em{
+    color: #17B169; /* carlsberg Green */
+    font-size: 150%;
+}
+
+div em{
+    font-size: 150%;
+}
+
+strong{
+    color:#CE4A1C; /* carlsberg Green */
+}
+
+hr{
+    border: 1px solid #FF4000;
+}
+/* color: #4FD28A Wix Green */
+/* color: #FF4000; Wix Orange */
+/* #E25822 flame */
+/* color: #87A96B; Asparagus */
+/* color: #DADD98; Green Earth */
+/* #CE4A1C wix secondary orange */
+
+footer{
+	text-align: center;
+}
+
+	
