@@ -1,6 +1,6 @@
 <h2>Home</h2>
 <h3>Site Table of Contents</h3>
-<ul>
+<ul class="toc">
     <li><a href ="staticarchive/index.html" >Archived Static Pages<a></li>
     <li><a href ="multipage_sites/superduper_static">Static Multipage Site<a></li>
     <li><a href ="multipage_sites/superduper_php">Dynamic Multipage Site<a></li>

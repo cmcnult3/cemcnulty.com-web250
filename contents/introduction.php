@@ -1,8 +1,8 @@
 <h2>Introduction</h2>
 <figure>
     <h3>Cyle E McNulty</h3>
-        <img src=images/cylecatchinglobster.jpg alt="image of Cyle holding a lobster in each hand" width = "225" height = "250"><br>
-        <figcaption><em>Lobstering in Portland, Maine</em></figcaption>
+    <img src=images/cylecatchinglobster.jpg alt="image of Cyle holding a lobster in each hand" width = "225" height = "250"><br>
+    <figcaption><em>Lobstering in Portland, Maine</em></figcaption>
 </figure>
 <ul>
     <li><strong>Personal Background:</strong>  Grew up the child of an army soldier, moving just about every 3 years of childhood. However, 
