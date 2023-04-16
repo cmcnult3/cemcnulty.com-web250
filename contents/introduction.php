@@ -1,7 +1,7 @@
 <h2>Introduction</h2>
 <figure>
     <h3>Cyle E McNulty</h3>
-    <img src=images/cylecatchinglobster.jpg alt="image of Cyle holding a lobster in each hand" width = "225" height = "250"><br>
+    <img src=images/cylecatchinglobster.jpg alt="image of Cyle holding a lobster in each hand" width = "450" height = "500"><br>
     <figcaption><em>Lobstering in Portland, Maine</em></figcaption>
 </figure>
 <ul>
