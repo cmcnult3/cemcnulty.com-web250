@@ -18,6 +18,7 @@ header h1{
     display: inline-block;
     box-sizing: border-box;
     padding-right: 100px;
+    text-align: justify;
 }
 header nav{
     font-size: x-large;
@@ -35,15 +36,48 @@ header li{
     padding: 8px;
 }
 
+a{
+    color:#004953;
+}
+a:hover{
+    color: #87A96B;
+    font-size: 110%;
+}
+
+table{
+    width:100%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+}
+
+th{
+    border: 2px solid black;
+    color:#CE4A1C
+}
+
+th, td{
+    padding: 15px;
+}
+
 figure{
     text-align: center;
     border: 5px solid #004953;
+    border-radius: 10px;
 }
 
-.brand{
-    object-fit: contain;
+figure em{
+    color: #17B169; /* carlsberg Green */
+    font-size: 150%;
 }
 
+img{
+    max-width: 100%;
+    height: auto;
+}
 main div{
     background-color: #4FD28A;
     text-align: center;
@@ -53,10 +87,6 @@ main{
 }
 main li{
     margin: 10px;
-}
-figure em{
-    color: #17B169; /* carlsberg Green */
-    font-size: 150%;
 }
 
 div em{

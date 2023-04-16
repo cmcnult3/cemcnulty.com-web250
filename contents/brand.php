@@ -1,6 +1,6 @@
 <h2>Brand</h2>
-<figure class="brand">
-    <img src= "images/solologo.png" alt="AdventurePal">
+<figure>
+    <img class="brand" src= "images/solologo2.png" alt="AdventurePal" >
     <figcaption><em>Amplify your adventures with AdventurePal!</em></figcaption>
 </figure>
 <h3>Concept</h3>
