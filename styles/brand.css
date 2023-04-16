@@ -4,14 +4,13 @@ body{
     font-family:'Space Mono', monospace;
 }
 h1{
-    color: #FF4000; /* Wix Orange */
+    color: #CE4A1C; /* Wix Orange */
 }
 h2{
     text-align: center;
 }
 header{
     background-color:#4FD28A; /*Wix Green*/
-    color: #004953;
     padding: 20px 10px 5px;
 }
 header h1{
@@ -94,7 +93,7 @@ div em{
 }
 
 strong{
-    color:#CE4A1C; /* carlsberg Green */
+    color:#CE4A1C; 
 }
 
 hr{
