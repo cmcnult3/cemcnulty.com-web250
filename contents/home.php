@@ -18,15 +18,51 @@
         <td>Provided dynamic php web pages hosted on cemcnulty.com</td>
     </tr>
     <tr>
-        <td>Fizz Buzz BANG/Everything</td>
+        <td>M6 Deploy Joy of PHP App to website</td>
         <td>Not Yet Complete</td>
     </tr>
     <tr>
-        <td>Create Login Page</td>
+        <td>M6 One Form, Two Forms, Red Forms, Green Forms</td>
         <td>Not Yet Complete</td>
     </tr>
     <tr>
-        <td>Deploy Joy of PHP App to website</td>
+        <td>M7 Everything Form</td>
+        <td>Not Yet Complete</td>
+    </tr>
+    <tr>
+        <td>M8 Demonstrate Math, Dates, Strings</td>
+        <td>Not Yet Complete</td>
+    </tr>
+    <tr>
+        <td>M9 Fizz Buzz BANG/Everything</td>
+        <td>Not Yet Complete</td>
+    </tr>
+    <tr>
+        <td>M10 Demonstrate DB Conenctivity on the server</td>
+        <td>Not Yet Complete</td>
+    </tr>
+    <tr>
+        <td>M11 Create Login Page</td>
+        <td>Not Yet Complete</td>
+    </tr>
+    <tr>
+        <td>M12 Describe Your Project</td>
+        <td>Not Yet Complete</td>
+    </tr>
+    <tr>
+        <td>M13 READ, INSERT, & DELETE </td>
+        <td>Not Yet Complete</td>
+    </tr>
+    <tr>
+        <td>M14 UPDATE </td>
+        <td>Not Yet Complete</td>
+    </tr>
+    <tr>
+        <td>M16 Final Project</td>
+        <td>Not Yet Complete</td>
+    </tr>
+    <tr>
+        <td>M16 Self Evaluation</td>
         <td>Not Yet Complete</td>
     </tr>
 </table>
