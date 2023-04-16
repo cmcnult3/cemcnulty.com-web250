@@ -18,8 +18,9 @@
         <td>Provided dynamic php web pages hosted on cemcnulty.com</td>
     </tr>
     <tr>
-        <td>M6<a href ="joyphp/src"> Deploy Joy of PHP App to website</td>
-        <td>Not Yet Complete</td>
+        <td>M6 Deploy Joy of PHP <a href ="joyphp/src"> App to website</a> & 
+        <a href ="https://github.com/cmcnult3/cemcnulty.com-web250/tree/main/joyphp">Repository</a></td>
+        <td>Links to Joy of PHP application deployed on website and github repo</td>
     </tr>
     <tr>
         <td>M6 One Form, Two Forms, Red Forms, Green Forms</td>
