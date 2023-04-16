@@ -42,14 +42,14 @@
 		<a href="https://www.codecademy.com/profiles/web8953627608" target=_blank>Codeacademy</a> | 
 		<a href = "https://www.linkedin.com/in/cyle-mcnulty-320467111/" target=_blank>LinkedIn</a>
 	</nav>
-	</br></br>
+	<br><br>
 	<img src="images/logo.png" alt="adventurepal">
-	<br/><br/>Designed by Cyle McNulty © 2023<br/><br/>
+	<br><br>Designed by Cyle McNulty © 2023<br><br>
     <a href="http://validator.w3.org/check?uri=referer" id = "link_html" style = "text-decoration: none">
-	<img src="images/valid_html5.gif" alt="Validate HTML" />
+	<img src="images/valid_html5.gif" alt="Validate HTML">
     </a>
     <a href="http://jigsaw.w3.org/css-validator/check/referer" id= "link_css" style = "text-decoration: none">
-	<img src="images/vcss.gif" alt="Validate CSS" />
+	<img src="images/vcss.gif" alt="Validate CSS">
     </a>
 
 	<script>
