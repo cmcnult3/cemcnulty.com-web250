@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8">
 	<title>WEB250 ❱ Cyle McNulty's Cozy Mastadon ❱ Home</title>
-    <link rel ="stylesheet" type="text/css" href = "styles/brand.css" />
+    <link rel ="stylesheet" type="text/css" href = "styles/brand.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Space+Mono&display=swap" rel="stylesheet">
@@ -19,7 +19,7 @@
         <a href= "?p=contents/brand.php">Brand</a>
     </nav>
 </header>
-<hr />
+<hr>
 <!-- dynamic content goes here -->
 <main>
 <?php
@@ -31,7 +31,7 @@
 ?>
 </main>
 
-<hr />
+<hr>
 
 <footer>
 <nav>
