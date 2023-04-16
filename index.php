@@ -45,12 +45,17 @@
 	</br></br>
 	<img src="images/logo.png" alt="adventurepal">
 	<br/><br/>Designed by Cyle McNulty © 2023<br/><br/>
-    <a href="http://validator.w3.org/check?uri=referer" style = "text-decoration: none">
-	  <img src="images/valid_html5.gif" alt="Validate HTML" />
+    <a href="http://validator.w3.org/check?uri=referer" id = "link_html" style = "text-decoration: none">
+	<img src="images/valid_html5.gif" alt="Validate HTML" />
     </a>
-    <a href="http://jigsaw.w3.org/css-validator/check/referer" style = "text-decoration: none">
-	 <img src="images/vcss.gif" alt="Validate CSS" />
+    <a href="http://jigsaw.w3.org/css-validator/check/referer" id= "link_css" style = "text-decoration: none">
+	<img src="images/vcss.gif" alt="Validate CSS" />
     </a>
+
+	<script>
+	document.getElementById("link_html").setAttribute("href", "https://validator.w3.org/check?uri=" + location.href);
+	document.getElementById("link_css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+	</script> 
 </footer>
 
 </body>
