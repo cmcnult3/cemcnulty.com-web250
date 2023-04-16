@@ -1,6 +1,6 @@
 <h2>Brand</h2>
 <figure class="brand">
-    <image src= "images/solologo.png" alt="AdventurePal"/>
+    <img src= "images/solologo.png" alt="AdventurePal">
     <figcaption><em>Amplify your adventures with AdventurePal!</em></figcaption>
 </figure>
 <h3>Concept</h3>
@@ -15,9 +15,9 @@
 <hr>
 <div id="mission">
     <h2>Mission</h2>
-    <strong><em><p>AdventurePal aims to provide a service which allows individuals to plan and track recreational activities in order to maximize experiences 
+    <p><strong><em>AdventurePal aims to provide a service which allows individuals to plan and track recreational activities in order to maximize experiences 
         wherever life takes them.
-    </p></em></strong>
+    </em></strong></p>
 </div>
 <hr>
 <h3>Color schemes</h3>
