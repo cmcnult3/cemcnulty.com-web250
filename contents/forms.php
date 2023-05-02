@@ -22,7 +22,7 @@
 <hr/>
 
 <h3>Destination Form with GET</h3>
-<form method="GET">
+<form method="GET" action ="./?p=contents/forms.php">
     <label for="locname">Location Name:</label><br>
     <input type="text" id="locname" name ="locname"><br>
     <label for="type">Location Type:</label><br>
