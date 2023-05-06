@@ -11,12 +11,13 @@ End Number: <input type="number" id="end" name="end" value="<?php echo $endNum;?
 <br>
 Number : Word Pairs
 <br>
-<input type="number" class="number" id="number1" name="number1" value="<?php echo $num1;?>"> : 
+<input type="number" class="number" id="number1" name="num1" value="<?php echo $num1;?>"> : 
 <input type="text" class="word" id="word1" name="word1" value="<?php echo $fizzWord;?>"><br> 
-<input type="number" class="number" id="number2" name="number2" value="<?php echo $num2;?>"> :
+<input type="number" class="number" id="number2" name="num2" value="<?php echo $num2;?>"> :
 <input type="text" class="word" id="word2" name="word2" value="<?php echo $buzzWord;?>"><br> 
-<input type="number" class="number" id="number3" name="number3" value="<?php echo $num3;?>"> :
+<input type="number" class="number" id="number3" name="num3" value="<?php echo $num3;?>"> :
 <input type="text" class="word" id="word3" name="word3" value="<?php echo $bangWord;?>"> 
 <br>
 <input type="submit" value="Submit" name="submit" >
 </form>
+<hr>
