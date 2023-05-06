@@ -47,6 +47,12 @@ table{
     margin: auto;
     border-collapse: collapse;
 }
+.toc a{
+    color: #568203;
+}
+.toc a:hover{
+    color: #87A96B;
+}
 
 td {
     border: 1px solid black;
