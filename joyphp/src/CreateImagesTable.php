@@ -25,7 +25,7 @@ $mysqli->select_db("Cars");
    {
        echo "<p>Error: " . mysqli_error($mysqli);
    }
-    echo "<br><br><a href='index.php'>Home</a>";
+    echo "<br><br>";
 
 
 $query = " CREATE TABLE IMAGES (ID INT PRIMARY KEY NOT NULL AUTO_INCREMENT, VIN varchar(17), ImageFile varchar(250))";
