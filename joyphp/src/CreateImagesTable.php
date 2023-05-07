@@ -16,7 +16,7 @@ include 'db.php';
 $mysqli->select_db("Cars");
    Echo ("Selected the Cars database <br>");
   
-   $query = " DELETE TABLE IMAGES 
+   $query = " DELETE TABLE IMAGES";
    if ($mysqli->query($query) === TRUE) 
    {
        echo "Database table 'Images' Deleted</P>";
