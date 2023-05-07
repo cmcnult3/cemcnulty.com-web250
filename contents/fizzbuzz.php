@@ -71,7 +71,7 @@ if(isset($_POST['submit']))
 {
 
     
-    echo "<span class='instructions'> Hello {$firstName} {$lastName} your FizzBuzz results are Below:<br><br></span>";
+    echo "<span class='instructions'> Hello, {$firstName} {$lastName}, your FizzBuzz results are Below:<br><br></span>";
     for ($i=$startNum; $i<=$endNum; $i++){
         //For multiples of num1, print "Fizzword"
         if ($i % $num1 == 0){
