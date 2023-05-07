@@ -7,7 +7,7 @@
 <h3>Add Image</h3>
 <?php include 'db.php';
 $vin = $_GET['VIN'];
-$query = "SELECT * FROM INVENTORY WHERE VIN='$vin'";
+$query = "SELECT * FROM inventory WHERE VIN='$vin'";
 /* Try to query the database */
 if ($result = $mysqli->query($query)) {
    // Don't do anything if successful.
@@ -42,6 +42,7 @@ echo "<p>Asking Price: $".number_format($price,0) ."</p>";
 <input type="submit" name="submit" value="Submit">
 </form>
 <br/><br/>
+
 <?php
 $query = "SELECT * FROM images WHERE VIN='$vin'";
 /* Try to query the database */
