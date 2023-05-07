@@ -8,6 +8,6 @@ if (mysqli_connect_errno()) {
     exit();
 }
 //select a database to work with
-$mysqli->select_db("Cars");
+$mysqli->select_db("cemcnult_Cars");
  
 ?>
