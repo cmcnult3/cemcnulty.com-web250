@@ -22,7 +22,7 @@ else
 
 $mysqli->close();
 
-echo "<a href = 'ViewCarsWithStyle2.php'>Back to Inventory<a>"
+echo "<br><br><a href = 'ViewCarsWithStyle2.php'>Back to Inventory<a>"
 ?>
 
 </body>
