@@ -21,7 +21,8 @@ else
 }
 
 $mysqli->close();
-   
+
+echo "<a href = 'ViewCarsWithStyle2.php'>Back to Inventory<a>"
 ?>
 
 </body>
