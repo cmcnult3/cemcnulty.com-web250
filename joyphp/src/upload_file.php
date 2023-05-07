@@ -27,29 +27,32 @@ if(move_uploaded_file($_FILES['file']['tmp_name'], $target_path)) {
     echo "The file ".  basename( $_FILES['file']['name']). " has been uploaded<br>". "\n";
    
     // Create a database entry for this image
-    if (mysqli_connect_errno()) {
+    if (mysqli_connect_errno()) 
+    {
         printf("Connect failed: %s\n", mysqli_connect_error());
         exit();
     }
-
-  echo 'Connected successfully to mySQL. <BR>'; 
-  $file_name =  $_FILES["file"]["name"];
-  $query = "INSERT INTO IMAGES (VIN, ImageFile) VALUES ('$vin', '$file_name')";
-  echo $query."<br>\n";
-   echo  "<a href='AddImage.php?VIN=";
-   echo $vin;
-   echo "'>Add another image for this car </a></p>\n";
-/* Try to insert the new car into the database */
-if ($result = $mysqli->query($query)) {
-        echo "<p>You have successfully entered $target_path into the database.</P>\n";
-       
-    }
     else
     {
-        echo "Error entering $VIN into database: " . mysql_error()."<br>";
+      echo 'Connected successfully to mySQL. <BR>'; 
+      $file_name =  $_FILES["file"]["name"];
+      $query = "INSERT INTO IMAGES (VIN, ImageFile) VALUES ('$vin', '$file_name')";
+      echo $query."<br>\n";
+       echo  "<a href='AddImage.php?VIN=";
+       echo $vin;
+       echo "'>Add another image for this car </a></p>\n";
     }
-    $mysqli->close();
-    echo "<img src='$imagename' width='150'><br>";
+/* Try to insert the new car into the database */
+    if ($result = $mysqli->query($query)) {
+            echo "<p>You have successfully entered $target_path into the database.</P>\n";
+          
+        }
+    else
+        {
+            echo "Error entering $VIN into database: " . mysql_error()."<br>";
+        }
+        $mysqli->close();
+        echo "<img src='$imagename' width='150'><br>";
 
 } else{
     echo "There was an error uploading the file, please try again!";
