@@ -13,7 +13,7 @@ $mysqli = new mysqli($dbhost,$dbuser,$password);
       die('Could not connect'); 
   } 
   echo 'Connected successfully to mySQL. <BR>'; 
-  $mysqli->query("CREATE DATABASE cemcnult_Cars");
+
 /* Create table doesn't return a resultset */
 if ($mysqli->query("CREATE DATABASE cemcnult_Cars") === TRUE) {
     echo "<p>Database Cars created</P>";
@@ -24,7 +24,8 @@ else
 }
 //select a database to work with
 $mysqli->select_db("cemcnult_Cars");
-   Echo ("Selected the Cars database");
+    Echo ("Selected the Cars database");
+  
 
 $query = " CREATE TABLE inventory 
 ( VIN varchar(17) PRIMARY KEY, YEAR INT, Make varchar(50), Model varchar(100), 
