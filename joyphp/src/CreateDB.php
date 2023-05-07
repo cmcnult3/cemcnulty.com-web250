@@ -3,9 +3,8 @@
  * Joy of PHP sample code
  * Demonstrates how to create a database, create a table, and insert records.
  */
-$dbhost = "localhost";
-$dbuser = "cpses_ces5kd83qn";
-$password = "web250";
+
+require "unp.php";
 
 $mysqli = new mysqli($dbhost,$dbuser,$password);
 
