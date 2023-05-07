@@ -12,7 +12,7 @@ $vin = $_GET['VIN'];
 $query = "DELETE FROM INVENTORY WHERE VIN='$vin'";
 echo "$query <BR>";
 /* Try to query the database */
-if ($result = $mysqli->query($query)) {
+if ($mysqli->query($query)=== TRUE) {
    Echo "The vehicle with VIN $vin has been deleted.";
 }
 else
