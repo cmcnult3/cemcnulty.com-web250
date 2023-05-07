@@ -34,7 +34,7 @@ if(move_uploaded_file($_FILES['file']['tmp_name'], $target_path)) {
 
   echo 'Connected successfully to mySQL. <BR>'; 
   $file_name =  $_FILES["file"]["name"];
-  $query = "INSERT INTO images (VIN, ImageFile) VALUES ('$vin', '$file_name')";
+  $query = "INSERT INTO IMAGES (VIN, ImageFile) VALUES ('$vin', '$file_name')";
   echo $query."<br>\n";
    echo  "<a href='AddImage.php?VIN=";
    echo $vin;
