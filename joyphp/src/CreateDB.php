@@ -13,10 +13,9 @@ $mysqli = new mysqli($dbhost,$dbuser,$password);
       die('Could not connect'); 
   } 
   echo 'Connected successfully to mySQL. <BR>'; 
-  
 
 /* Create table doesn't return a resultset */
-if ($mysqli->query("CREATE DATABASE Cars") === TRUE) {
+if ($mysqli->query("CREATE DATABASE cemcnult_Cars") === TRUE) {
     echo "<p>Database Cars created</P>";
 }
 else
@@ -24,7 +23,7 @@ else
     echo "Error creating Cars database: " . mysqli_connect_error()."<br>";
 }
 //select a database to work with
-$mysqli->select_db("Cars");
+$mysqli->select_db("cemcnult_Cars");
    Echo ("Selected the Cars database");
 
 $query = " CREATE TABLE inventory 
@@ -47,7 +46,7 @@ else
 $query = "INSERT INTO `Cars`.`inventory` 
 (`VIN`, `YEAR`, `Make`, `Model`, `TRIM`, `EXT_COLOR`, `INT_COLOR`, `ASKING_PRICE`, `SALE_PRICE`, `PURCHASE_PRICE`, `MILEAGE`, `TRANSMISSION`, `PURCHASE_DATE`, `SALE_DATE`) 
 VALUES 
-('5FNYF4H91CB054036', '2012', 'Honda', 'Pilot', 'Touring', 'White Diamond Pearl', 'Leather', '37807', NULL, '34250', '7076', 'Automatic', '2012-11-08', NULL);";
+('5FNYF4H91CB054036', 2012, 'Honda', 'Pilot', 'Touring', 'White Diamond Pearl', 'Leather', '37807', NULL, '34250', '7076', 'Automatic', '2012-11-08', NULL);";
 
 
 if ($mysqli->query($query) === TRUE) {
@@ -65,7 +64,7 @@ else
 
 $query = "INSERT INTO `Cars`.`inventory` (`VIN`, `YEAR`, `Make`, `Model`, `TRIM`, `EXT_COLOR`, `INT_COLOR`, `ASKING_PRICE`, `SALE_PRICE`, `PURCHASE_PRICE`, `MILEAGE`, `TRANSMISSION`, `PURCHASE_DATE`, `SALE_DATE`) 
 VALUES 
-('LAKSDFJ234LASKRF2', '2009', 'Dodge', 'Durango', 'SLT', 'Silver', 'Black', '2700', NULL, '2000', '144000', '4WD Automatic', '2012-12-05', NULL);";
+('LAKSDFJ234LASKRF2', 2009, 'Dodge', 'Durango', 'SLT', 'Silver', 'Black', '2700', NULL, '2000', '144000', '4WD Automatic', '2012-12-05', NULL);";
 
 
 if ($mysqli->query($query) === TRUE) {
