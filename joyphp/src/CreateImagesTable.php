@@ -19,7 +19,7 @@ $mysqli->select_db("Cars");
    $query = "DROP TABLE IMAGES";
    if ($mysqli->query($query) === TRUE) 
    {
-       echo "Database table 'Images' Dropped Successfully</P>";
+       echo "<br><p>Database table 'Images' dropped successfully</p><br>";
    }
    else
    {
