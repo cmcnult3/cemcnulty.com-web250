@@ -9,7 +9,7 @@
 <?php 
 include 'db.php';
 $vin = $_GET['VIN'];
-$query = "DELETE FROM INVENTORY WHERE VIN='$vin'";
+$query = "DELETE FROM 'INVENTORY' WHERE 'VIN'='$vin'";
 echo "$query <BR>";
 /* Try to query the database */
 if ($mysqli->query($query)=== TRUE) {
