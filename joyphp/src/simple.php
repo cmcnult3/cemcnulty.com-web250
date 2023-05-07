@@ -10,7 +10,7 @@
 			echo "This $brand $model is a $year <br>";
 			$gas_price = 3.89;
 			echo "the price of gas is $gas_price";
-            echo "<br><br><a href='index.html'>Home</a>";
+            echo "<br><br><a href='index.php'>Home</a>";
 		?>
 	</body>	
 </html>
