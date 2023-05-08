@@ -20,15 +20,15 @@
             </nav>
         </header>
        
-        
-    <?php
-        $sPage = $_GET["p"];
-        //echo ("You picked the page: " . $sPage); 
-        
-        if($sPage == "") {  $sPage = "contents/brand.php"; }
-        include($sPage);
-    ?>
-
+        <main>
+            <?php
+                $sPage = $_GET["p"];
+                //echo ("You picked the page: " . $sPage); 
+                
+                if($sPage == "") {  $sPage = "contents/brand.php"; }
+                include($sPage);
+            ?>
+        </main>
         <footer>
             <img src="../images/logo.png" alt="adventurepal">
             <br><br>Designed by Cyle McNulty © <?php echo date('Y'); ?><br><br>
