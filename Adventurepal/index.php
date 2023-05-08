@@ -1,4 +1,3 @@
-<?php require_once('../functions/initialize.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
