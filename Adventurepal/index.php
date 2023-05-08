@@ -12,15 +12,23 @@
 
     <body>
         <header>
-            Welcome to AdventurePal!
-        </header>
-        <nav>
+            <nav>
                 <a href= "?p=contents/home.php"> Home</a>
                 <a href= "?p=contents/about.php"> About</a>
                 <a href= "?p=contents/contact.php"> Contact</a>
                 <a href= "?p=contents/login.php">Login</a>
-        </nav>
+            </nav>
+        </header>
+       
         
+    <?php
+        $sPage = $_GET["p"];
+        //echo ("You picked the page: " . $sPage); 
+        
+        if($sPage == "") {  $sPage = "contents/brand.php"; }
+        include($sPage);
+    ?>
+
         <footer>
             <img src="../images/logo.png" alt="adventurepal">
             <br><br>Designed by Cyle McNulty © <?php echo date('Y'); ?><br><br>
