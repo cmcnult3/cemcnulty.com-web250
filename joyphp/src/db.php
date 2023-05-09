@@ -1,7 +1,7 @@
  <?php
 
 require "unp.php";
-$mysqli = new mysqli($dbhost,$dbuser,$password, 'cemcnult_Cars');
+$mysqli = new mysqli($dbhost,$dbuser,$password,'cemcnult_Cars');
 /* check connection */
 if (mysqli_connect_errno()) {
     printf("Connect failed: %s\n", mysqli_connect_error());

@@ -14,6 +14,9 @@ $mysqli = new mysqli($dbhost,$dbuser,$password);
   } 
   echo 'Connected successfully to mySQL. <BR>'; 
 
+// Drop Exisiting and recreate Cars Database
+
+
 /* Create table doesn't return a resultset */
 if ($mysqli->query("CREATE DATABASE cemcnult_Cars") === TRUE) {
     echo "<p>Database Cars created</P>";

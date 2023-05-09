@@ -1,4 +1,3 @@
-<h2>Brand</h2>
 <figure>
     <img class="brand" src= "images/solologo2.png" alt="AdventurePal" >
     <figcaption><em>Amplify your adventures with AdventurePal!</em></figcaption>
@@ -20,15 +19,3 @@
     </em></strong></p>
 </div>
 <hr>
-<h3>Color schemes</h3>
-<ul>
-    <li>Background: Slate gray</li>
-    <li>Content: Eagle's Midnight Green</li>
-    <li>Brand/Logo: Orange/ Green </li>
-</ul>
-<hr>
-<h3>Fonts</h3>
-<ul>
-    <li>Content: google fonts - M PLUS Rounded 1c</li>
-    <li>Company Logo: google fonts - Josefine sans</li>
-</ul>
